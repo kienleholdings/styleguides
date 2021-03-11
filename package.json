@@ -1,0 +1,15 @@
+{
+  "name": "styleguides",
+  "description": "Guidelines and standards all Kienle Holdings software adheres to",
+  "repository": "https://github.com/kienleholdings/styleguides.git",
+  "author": "Kienle Technologies <hello@kienle.tech> (https://kienle.tech)",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=2"
+  }
+}
