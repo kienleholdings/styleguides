@@ -1,5 +1,5 @@
 {
-  "name": "prettier-config",
+  "name": "@kienleholdings/prettier-config",
   "version": "0.1.2",
   "description": "Kienle Holdings Prettier configuration",
   "main": "index.js",
@@ -11,8 +11,7 @@
     "url": "git+https://github.com/kienleholdings/styleguides.git"
   },
   "keywords": [
-    "\"Kienle",
-    "Holdings\"",
+    "Kienl Holdings",
     "prettier"
   ],
   "author": "Kienle Holdings LLC <hello@kienle.tech> (https://www.kienle.tech)",
@@ -20,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/kienleholdings/styleguides/issues"
   },
-  "homepage": "https://github.com/kienleholdings/styleguides/tree/master/prettier-config#readme"
+  "homepage": "https://github.com/kienleholdings/styleguides/tree/master/prettier-config#readme",
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=2"
+  },
+  "peerDependencies": {
+    "prettier": "2.2.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }
