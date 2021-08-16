@@ -4,6 +4,10 @@
   "description": "Kienle Holdings Base TSConfig",
   "prettier": "@kienleholdings/prettier-config",
   "main": "tsconfig.json",
+  "scripts": {
+    "lint": "yarn lint-markdown",
+    "lint-markdown": "markdownlint-cli2 \"**/*.md\" \"#node_modules\""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kienleholdings/typescript.git"
@@ -20,6 +24,7 @@
   "homepage": "https://github.com/kienleholdings/typescript/tree/master/packages/base-tsconfig",
   "devDependencies": {
     "@kienleholdings/prettier-config": "^0.1.2",
+    "markdownlint-cli2": "^0.2.0",
     "prettier": "^2.1.2",
     "typescript": "^4.0.3"
   },

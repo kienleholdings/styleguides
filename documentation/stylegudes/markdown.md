@@ -77,15 +77,15 @@ Code blocks should be marked with their appropriate language.
 
 ### Style
 
-Code blocks should be written with the fenced style (```) rather than the indented style, and have
-blank lines around the block.
+<!-- prettier-ignore-start -->
+
+Code blocks should be written with the fenced style
+(```) rather than the indented style, and have blank lines around the block.
 ([`code-block-style`](https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md046),
 [`blanks-around-fences`](https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md031))
 
 > **Why?** You already (in theory) have spaces and tabs in your code. We think it makes more sense
 > to not add any additional tabbing in, as that can mess up copy / pasting.
-
-<!-- prettier-ignore-start -->
 
 ````markdown
 <!-- Good -->
@@ -466,7 +466,8 @@ the rest of the content, and have spaces between the list marker and the list it
 ## Code Style
 
 All Markdown documents should confirm to the Kienle Holdings Prettier Style Guide. More information
-as well as configuration can be found [here](https://github.com/kienleholdings/styleguides/master/blob/styleguides/prettier.md).
+as well as configuration can be found
+[here](https://github.com/kienleholdings/styleguides/master/blob/styleguides/prettier.md).
 Additionally, Markdownlint and Prettier's CLI should be used in CI to ensure that files are properly
 formatted.
 

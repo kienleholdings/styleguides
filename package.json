@@ -1,6 +1,9 @@
 {
   "name": "@kienleholdings/styleguides",
   "description": "Guidelines and standards all Kienle Holdings software adheres to",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"documentation/**/*.md\" && lerna exec yarn lint"
+  },
   "repository": "https://github.com/kienleholdings/styleguides.git",
   "author": "Kienle Technologies <hello@kienle.tech> (https://kienle.tech)",
   "license": "MIT",
@@ -10,6 +13,12 @@
   ],
   "engines": {
     "node": ">=14",
-    "yarn": ">=2"
+    "yarn": ">=1.22.5 <2"
+  },
+  "dependencies": {
+    "prettier": "2.1.2"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
