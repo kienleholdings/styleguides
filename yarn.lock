@@ -5,17 +5,23 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"prettier-config@workspace:packages/prettier-config":
+"@kienleholdings/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
-  resolution: "prettier-config@workspace:packages/prettier-config"
+  resolution: "@kienleholdings/prettier-config@workspace:packages/prettier-config"
   dependencies:
-    prettier: ^2.2.1
+    prettier: 2.2.1
   peerDependencies:
-    prettier: "*"
+    prettier: 2.2.1
   languageName: unknown
   linkType: soft
 
-"prettier@npm:^2.2.1":
+"@kienleholdings/styleguides@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@kienleholdings/styleguides@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"prettier@npm:2.2.1":
   version: 2.2.1
   resolution: "prettier@npm:2.2.1"
   bin:
@@ -23,9 +29,3 @@ __metadata:
   checksum: 92c6c9f4b87eba1f28466edee57dd18c80d00b858edda77d46d1950d20e6e302b68ee255fc91133ba931e63c4577b5ae30da194d9626a8f3c0177778b91bf056
   languageName: node
   linkType: hard
-
-"styleguides@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "styleguides@workspace:."
-  languageName: unknown
-  linkType: soft
