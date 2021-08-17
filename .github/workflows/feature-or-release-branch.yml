@@ -22,5 +22,6 @@ jobs:
       - name: Install Dependencies
         run: yarn install
       # TODO: Add Step for TypeScript Build
-      # TODO: Add Step for Linting
+      - name: Lint
+        run: yarn lint
       # TODO: Add Step for Unit Testing
