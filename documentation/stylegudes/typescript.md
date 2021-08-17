@@ -2300,7 +2300,8 @@ The compiler's watch option should be `false`. (`compilerOptions.watch`)
 ## Code Style
 
 All TypeScript projects should confirm to the Kienle Holdings Prettier Style Guide. More information
-as well as configuration can be found [here](https://github.com/kienleholdings/styleguides/tree/master/documentation/prettier.md).
+as well as configuration can be found
+[here](https://github.com/kienleholdings/styleguides/tree/master/documentation/prettier.md).
 Additionally, all TypeScript projects should confirm to the
 [AirBNB JavaScript Style Guide](https://github.com/airbnb/javascript). We have a super convinent way
 to do this.

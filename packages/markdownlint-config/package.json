@@ -1,0 +1,32 @@
+{
+  "name": "@kienleholdings/markdownlint-config",
+  "version": "0.1.6",
+  "description": "Kienle Holdings Markdownlint Config",
+  "prettier": "@kienleholdings/prettier-config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "yarn lint-markdown",
+    "lint-markdown": "markdownlint-cli2 \"**/*.md\" \"#node_modules\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kienleholdings/styleguides.git"
+  },
+  "keywords": [
+    "markdown",
+    "markdownlint",
+    "Kienle Holdings"
+  ],
+  "author": "Kienle Holdings LLC <hello@kienle.tech> (https://www.kienle.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kienleholdings/styleguides/issues"
+  },
+  "homepage": "https://github.com/kienleholdings/styleguides/tree/master/packages/eslint-config-react",
+  "devDependencies": {
+    "markdownlint-cli2": "^0.2.0"
+  },
+  "peerDependencies": {
+    "markdownlint-cli2": "^0.2.0"
+  }
+}
