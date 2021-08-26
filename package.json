@@ -3,7 +3,7 @@
   "description": "Guidelines and standards all Kienle Holdings software adheres to",
   "scripts": {
     "lint": "markdownlint-cli2 \"documentation/**/*.md\" && lerna exec yarn lint",
-    "publish-lerna": "lerna publish from-package --yes"
+    "publish-lerna": "lerna publish from-package --yes --no-verify-access"
   },
   "repository": "https://github.com/kienleholdings/styleguides.git",
   "author": "Kienle Technologies <hello@kienle.tech> (https://kienle.tech)",
