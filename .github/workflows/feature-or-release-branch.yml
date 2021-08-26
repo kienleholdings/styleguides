@@ -1,6 +1,6 @@
 name: Feature or Release Branch
 env:
-  NPM_TOKEN: '${{ secrets.NPM_TOKEN }}'
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 on:
   push:
     branches:
