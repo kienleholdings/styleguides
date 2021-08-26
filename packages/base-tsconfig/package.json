@@ -1,6 +1,6 @@
 {
   "name": "@kienleholdings/base-tsconfig",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Kienle Holdings Base TSConfig",
   "prettier": "@kienleholdings/prettier-config",
   "main": "tsconfig.json",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/kienleholdings/typescript/issues"
   },
-  "homepage": "https://github.com/kienleholdings/typescript/tree/master/packages/base-tsconfig",
+  "homepage": "https://github.com/kienleholdings/typescript/tree/master/packages/base-tsconfig#readme",
   "devDependencies": {
     "@kienleholdings/prettier-config": "0.x",
     "markdownlint-cli2": "^0.2.0",

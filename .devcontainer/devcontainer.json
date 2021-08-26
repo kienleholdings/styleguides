@@ -4,6 +4,9 @@
     "dockerfile": "Dockerfile",
     "args": { "VARIANT": "14" }
   },
+  "containerEnv": {
+    "NPM_TOKEN": "FAKE_TOKEN",
+  },
   "settings": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -12,12 +15,8 @@
         "pattern": "packages/*"
       }
     ],
-    "search.exclude": {
-      "**/.yarn": true,
-      "**/.pnp.*": true
-    }
   },
-  "extensions": ["arcanis.vscode-zipfs", "dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
   "postCreateCommand": "yarn install",
   "remoteUser": "node"
 }

@@ -103,11 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-# Yarn 2.x
-.yarn/*
-!.yarn/patches
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
+# Kienle Holdings
+.DS_Store
