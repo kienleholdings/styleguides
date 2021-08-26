@@ -7,6 +7,9 @@
     "lint": "yarn lint-markdown",
     "lint-markdown": "markdownlint-cli2 \"**/*.md\" \"#node_modules\""
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kienleholdings/styleguides.git"
