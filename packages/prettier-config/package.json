@@ -1,0 +1,31 @@
+{
+  "name": "@kienleholdings/prettier-config",
+  "version": "0.1.3",
+  "description": "Kienle Holdings Prettier configuration",
+  "main": "index.js",
+  "scripts": {
+    "lint": "yarn lint-markdown",
+    "lint-markdown": "markdownlint-cli2 \"**/*.md\" \"#node_modules\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kienleholdings/styleguides.git"
+  },
+  "keywords": [
+    "Kienle Holdings",
+    "prettier"
+  ],
+  "author": "Kienle Holdings LLC <hello@kienle.tech> (https://www.kienle.tech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kienleholdings/styleguides/issues"
+  },
+  "homepage": "https://github.com/kienleholdings/styleguides/tree/master/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.2.0",
+    "prettier": "^2.3.2"
+  }
+}

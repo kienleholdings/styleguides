@@ -1,0 +1,34 @@
+{
+  "name": "@kienleholdings/base-tsconfig",
+  "version": "0.1.7",
+  "description": "Kienle Holdings Base TSConfig",
+  "prettier": "@kienleholdings/prettier-config",
+  "main": "tsconfig.json",
+  "scripts": {
+    "lint": "yarn lint-markdown",
+    "lint-markdown": "markdownlint-cli2 \"**/*.md\" \"#node_modules\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kienleholdings/typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "kienle"
+  ],
+  "author": "Kienle Holdings LLC <hello@kienle.tech> (https://www.kienle.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kienleholdings/typescript/issues"
+  },
+  "homepage": "https://github.com/kienleholdings/typescript/tree/master/packages/base-tsconfig#readme",
+  "devDependencies": {
+    "@kienleholdings/prettier-config": "0.x",
+    "markdownlint-cli2": "^0.2.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
