@@ -1,6 +1,6 @@
 {
   "name": "@kienleholdings/markdownlint-config",
-  "version": "0.1.6",
+  "version": "0.1.0",
   "description": "Kienle Holdings Markdownlint Config",
   "prettier": "@kienleholdings/prettier-config",
   "main": "index.js",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/kienleholdings/styleguides/issues"
   },
-  "homepage": "https://github.com/kienleholdings/styleguides/tree/master/packages/eslint-config-react",
+  "homepage": "https://github.com/kienleholdings/styleguides/tree/master/packages/markdownlint-config#readme",
   "devDependencies": {
     "markdownlint-cli2": "^0.2.0"
   },

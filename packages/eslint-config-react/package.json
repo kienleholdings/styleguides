@@ -1,6 +1,6 @@
 {
   "name": "@kienleholdings/eslint-config-react",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Kienle Holdings React ESLint Config",
   "prettier": "@kienleholdings/prettier-config",
   "main": "index.js",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/kienleholdings/typescript/issues"
   },
-  "homepage": "https://github.com/kienleholdings/typescript/tree/master/packages/eslint-config-react",
+  "homepage": "https://github.com/kienleholdings/typescript/tree/master/packages/eslint-config-react#readme",
   "devDependencies": {
     "@kienleholdings/prettier-config": "0.x",
     "eslint": "^7.32.0",
